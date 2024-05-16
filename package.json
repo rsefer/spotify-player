@@ -24,7 +24,8 @@
     "hobhouse",
     "bkeys818",
     "jatindotdev",
-    "devbear"
+    "devbear",
+    "rsefer"
   ],
   "license": "MIT",
   "preferences": [
@@ -93,6 +94,13 @@
           "placeholder": "Default View"
         }
       ]
+    },
+		{
+      "name": "podcastEpisodes",
+      "title": "Podcast Episodes",
+      "subtitle": "Spotify",
+      "description": "See and control playback of recent podcast episodes",
+      "mode": "view"
     },
     {
       "name": "nowPlaying",
