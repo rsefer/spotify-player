@@ -28,6 +28,9 @@ export default function EpisodeListItem({ episode, show }: EpisodeListItemProps)
     if (episode.resume_point.fully_played) {
       accessories.push({ icon: { source: Icon.CheckCircle, tintColor: Color.Green }, tooltip: "Played" });
     } else if (episode.resume_point.resume_position_ms > 0) {
+			if (accessories.length > 0 && episode.duration_ms) {
+				accessories[0].text = `${formatMs(episode.duration_ms - episode.resume_point.resume_position_ms)} remaining`;
+			}
       accessories.push({ icon: { source: Icon.CircleProgress50, tintColor: Color.Blue }, tooltip: "In-progress" });
     }
   }
