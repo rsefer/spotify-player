@@ -107,6 +107,7 @@ In order to use this extension, you'll need to authenticate with Spotify. This e
 - `user-library-read`: To fetch your liked songs, artists, albums, podcasts, and episodes.
 - `user-modify-playback-state`: To control playback state, such as play/pause, skip, change volume, transfer playback, and more.
 - `user-read-currently-playing`: To fetch what's currently playing.
+- `user-read-playback-position`: To fetch track and episode playback position
 - `user-read-playback-state`: To fetch playback state, such as volume, shuffle, repeat, and more.
 - `user-read-private`: To fetch your country code, so we can display songs available in your location only.
 - `user-top-read`: To fetch your top artists and tracks.
